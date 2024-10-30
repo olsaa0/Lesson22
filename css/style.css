@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0;
+}
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin-left: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-right:20px
+}
+nav ul li a{
+    color: white;
+    text-decoration: dotted;
+}
+#hero{
+    background-image: url(/vecteezy_elegant-garment-collection-hanging-in-modern-boutique_24653601.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+}
+.hero-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.hero-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+
