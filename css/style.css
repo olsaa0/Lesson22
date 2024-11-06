@@ -22,15 +22,16 @@ header h1{
     margin-left: 20px;
 }
 nav ul{
-    list-style: disc;
+    list-style: none;
     display: flex;
+    text-decoration: none;
 }
 nav ul li{
     margin-right:20px
 }
 nav ul li a{
     color:rgb(255, 255, 255) ;
-    text-decoration: dotted;
+    text-decoration: none;
 }
 #hero{
     background-image: url(../vecteezy_elegant-garment-collection-hanging-in-modern-boutique_24653601.jpg);
@@ -42,11 +43,13 @@ nav ul li a{
 .hero-content{
     background-color: rgb(0,0,0,0.5);
     padding: 20px;
+    text-align: center;
 }
 .hero-button{
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
+    text-align: center;
 }
 footer{
     background-color: #005f73;
@@ -64,7 +67,7 @@ footer{
     margin-bottom: 15px;
 }
 #services ul{
-    list-style-type: style circle; 
+    list-style-type: style type none; 
     margin-left:20px ;
 }
 #services li{
@@ -101,3 +104,9 @@ footer{
     width: 150px;
     height: 150px;
 }
+#about{
+    display: flex;
+   border-bottom: 1px dotted black;
+}
+
+  

@@ -12,9 +12,9 @@
             <h1>Asos fashion</h1>
             <nav>
                 <ul>
-                    <li><a href="#servies">Services</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#about">About Us</a></li>
-                    <li><a href="#conctact">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
 
@@ -70,10 +70,29 @@
         </div>
     </section>
     <section id="Contact">
-        <h2>Contact Us</h2>
-        <p>Phone:044 332 713</p>
-        <p>Email:Narta.hoxha@outlook.com</p>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="Kosova">Kosova</option>
+              </select>
+          
+              <label for="suggestions">Suggestions</label>
+              <textarea id="Any suggestions?" name="Suggestions" placeholder="Write something.." style="height:100px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </section>
+    <br>
     <footer>
         <p>Private business.All rights reserved</p>
         

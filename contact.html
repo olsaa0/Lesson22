@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+
+        #Contact{
+            width: 100%;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            background-image: url(./background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+      
+       #Contact .container{
+            width: 400px;
+            height: 600px;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        form input{
+            margin-bottom: 20px;
+        }
+
+        input{
+            width: 100%;
+            height: 50px;
+        }
+
+        textarea{
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+   
+    <header>
+        <div class="header-content">
+            <h1>Asos fashion</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+   
+   
+    <section id="Contact">
+        <div class="container">
+            <form action="action_page.php">
+                
+                <h2>Contact Form</h2>
+              <!-- <label for="fname">First Name</label> -->
+              <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+          
+              <!-- <label for="lname">Last Name</label> -->
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+          
+                <!-- <label for="suggestions">Suggestions</label> -->
+                <textarea id="Any suggestions?" name="Suggestions" placeholder="Write something.." style="height:100px"></textarea><br>
+          
+              <!-- <label for="country">Country</label> -->
+              <select id="country" name="country">
+                <option value="Kosova">Kosova</option>
+              </select><br>
+          
+            
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </section>
+</body>
+</html>
